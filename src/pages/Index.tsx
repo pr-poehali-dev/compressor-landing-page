@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
-const COMPRESSOR_IMAGE = "https://cdn.poehali.dev/projects/bdbde96d-93ee-4e3d-97ff-b968edcde26e/files/72972b1b-f90f-4d92-9f8d-2bb8ba7b24ec.jpg";
+const COMPRESSOR_IMAGE = "https://cdn.poehali.dev/projects/bdbde96d-93ee-4e3d-97ff-b968edcde26e/bucket/67b2f46b-9da1-4a2f-a4d3-fe8292490e53.jpg";
 
 const NAV_LINKS = [
   { href: "#products", label: "Продукция" },
@@ -191,11 +191,12 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="animate-fade-in [animation-delay:150ms]">
+          <div className="animate-fade-in [animation-delay:150ms] overflow-hidden rounded border border-border" style={{aspectRatio: "4/3"}}>
             <img
               src={COMPRESSOR_IMAGE}
               alt="Промышленный винтовой компрессор J&E Hall HallScrew"
-              className="w-full rounded object-cover border border-border"
+              className="w-full h-full object-cover object-center scale-110"
+              style={{objectPosition: "50% 35%"}}
             />
           </div>
         </div>
