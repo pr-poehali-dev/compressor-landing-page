@@ -232,10 +232,11 @@ export default function Index() {
           <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
             {/* J&E Hall */}
             <div className="flex flex-col items-center gap-1">
-              <div className="flex items-center gap-2 border border-border rounded px-5 py-3">
-                <div className="w-3 h-3 rounded-full bg-[#003087]" />
-                <span className="font-black text-lg tracking-tight text-[#003087]">J&amp;E HALL</span>
-              </div>
+              <img
+                src="https://cdn.poehali.dev/projects/bdbde96d-93ee-4e3d-97ff-b968edcde26e/bucket/36c05307-625a-444c-bbce-8b9751b2d8f9.jpg"
+                alt="J&E Hall International"
+                className="h-12 object-contain"
+              />
               <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Производитель</span>
             </div>
 
