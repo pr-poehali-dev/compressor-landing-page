@@ -381,7 +381,7 @@ export default function Index() {
       </section>
 
       {/* DELIVERY */}
-      <section id="delivery" className="py-16 border-b border-border bg-primary">
+      <section id="delivery" className="py-16 border-b border-border" style={{background: "#333333"}}>
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
             <div className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">Сроки поставки</div>
