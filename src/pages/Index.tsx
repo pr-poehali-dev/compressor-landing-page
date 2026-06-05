@@ -390,7 +390,7 @@ export default function Index() {
       <section id="delivery" className="py-16 border-b border-border" style={{background: "#333333"}}>
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
-            <div className="text-xs font-semibold tracking-widest uppercase text-accent mb-2">Сроки поставки</div>
+
             <h2 className="text-2xl font-bold text-white">Сроки поставки оборудования</h2>
             <p className="text-white/60 mt-2 text-sm">
               Оборудование поставляется под заказ. Сроки фиксируются в договоре.
