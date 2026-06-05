@@ -102,11 +102,12 @@ export default function Index() {
       {/* NAV */}
       <header className="sticky top-0 z-50 bg-white border-b border-border">
         <div className="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-7 h-7 bg-primary rounded-sm flex items-center justify-center">
-              <span className="text-white text-xs font-bold leading-none">А3</span>
-            </div>
-            <span className="font-semibold text-sm tracking-wide text-foreground uppercase">А3 Инжиниринг</span>
+          <div className="flex items-center">
+            <img
+              src="https://a3eng.ru/wp-content/themes/a3eng/images/logo.png"
+              alt="А3 Инжиниринг"
+              className="h-9 object-contain"
+            />
           </div>
 
           <nav className="hidden md:flex items-center gap-7">
