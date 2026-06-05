@@ -209,13 +209,13 @@ export default function Index() {
         <div className="border-t border-border bg-secondary">
           <div className="max-w-6xl mx-auto px-6 py-5 grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { value: "10+", label: "лет поставок J&E Hall" },
-              { value: "4", label: "серии компрессоров" },
-              { value: "12–16", label: "недель — срок поставки" },
-              { value: "НДС 20%", label: "полный пакет документов" },
+              { value: "10+", label: "лет поставок J&E Hall", blue: true },
+              { value: "4", label: "серии компрессоров", blue: true },
+              { value: "12–16", label: "недель — срок поставки", blue: true },
+              { value: "НДС 22%", label: "полный пакет документов", blue: false },
             ].map((s) => (
               <div key={s.value} className="text-center">
-                <div className="text-xl font-bold text-primary">{s.value}</div>
+                <div className={`text-xl font-bold ${s.blue ? "text-[#1a5fa8]" : "text-primary"}`}>{s.value}</div>
                 <div className="text-xs text-muted-foreground mt-0.5">{s.label}</div>
               </div>
             ))}
