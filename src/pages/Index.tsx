@@ -520,14 +520,21 @@ export default function Index() {
                   <Icon name="Phone" size={15} className="text-accent mt-0.5 flex-shrink-0" />
                   <div>
                     <div className="text-xs text-muted-foreground mb-0.5">Телефон</div>
-                    <div className="text-sm text-foreground font-medium">Уточнить при заявке</div>
+                    <a href="tel:+78123868586" className="text-sm text-foreground font-medium hover:text-accent transition-colors">+7 (812) 386-85-86</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
                   <Icon name="Mail" size={15} className="text-accent mt-0.5 flex-shrink-0" />
                   <div>
                     <div className="text-xs text-muted-foreground mb-0.5">E-mail</div>
-                    <div className="text-sm text-foreground font-medium">Уточнить при заявке</div>
+                    <a href="mailto:jehall@a3eng.ru" className="text-sm text-foreground font-medium hover:text-accent transition-colors">jehall@a3eng.ru</a>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <Icon name="Globe" size={15} className="text-accent mt-0.5 flex-shrink-0" />
+                  <div>
+                    <div className="text-xs text-muted-foreground mb-0.5">Сайт</div>
+                    <a href="https://www.a3eng.ru" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground font-medium hover:text-accent transition-colors">www.a3eng.ru</a>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
