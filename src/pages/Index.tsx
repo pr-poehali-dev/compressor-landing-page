@@ -171,10 +171,9 @@ export default function Index() {
               Промышленные винтовые<br />компрессоры и запасные части
             </h1>
             <p className="text-muted-foreground text-base leading-relaxed mb-8">
-              ООО «А3 Инжиниринг» — официальные поставки компрессоров серий{" "}
-              <strong className="text-foreground">HSL, HSM, HSO</strong> производства J&amp;E Hall
-              для систем промышленного холодоснабжения и кондиционирования.
-              Опыт работы на российском рынке — более 10 лет.
+              Компания «А3 Инжиниринг» осуществляет поставки компрессоров «J&amp;E Hall» HallScrew
+              для систем промышленного холодоснабжения и кондиционирования,
+              а также запасных частей к ним.
             </p>
             <div className="flex flex-wrap gap-3">
               <a
