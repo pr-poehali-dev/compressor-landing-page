@@ -191,7 +191,12 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="animate-fade-in [animation-delay:150ms]">
+          <div className="animate-fade-in [animation-delay:150ms] flex flex-col gap-4">
+            <img
+              src="https://cdn.poehali.dev/projects/bdbde96d-93ee-4e3d-97ff-b968edcde26e/bucket/36c05307-625a-444c-bbce-8b9751b2d8f9.jpg"
+              alt="J&E Hall International"
+              className="w-48 object-contain"
+            />
             <img
               src={COMPRESSOR_IMAGE}
               alt="Промышленный винтовой компрессор J&E Hall HallScrew"
