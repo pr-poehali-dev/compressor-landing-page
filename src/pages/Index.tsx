@@ -546,22 +546,7 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="bg-secondary border border-border rounded p-4">
-                <div className="text-xs font-semibold text-foreground mb-2 flex items-center gap-1.5">
-                  <Icon name="Clock" size={13} className="text-accent" />
-                  Сроки поставки (справочно)
-                </div>
-                <div className="space-y-1.5">
-                  <div className="flex justify-between text-xs">
-                    <span className="text-muted-foreground">Компрессоры</span>
-                    <span className="font-semibold text-foreground">12–16 нед.</span>
-                  </div>
-                  <div className="flex justify-between text-xs">
-                    <span className="text-muted-foreground">Запасные части</span>
-                    <span className="font-semibold text-foreground">6–8 нед.</span>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
