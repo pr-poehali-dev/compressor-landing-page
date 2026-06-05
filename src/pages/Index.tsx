@@ -218,6 +218,47 @@ export default function Index() {
         </div>
       </section>
 
+      {/* BRANDS */}
+      <section className="border-b border-border bg-white py-8">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-xs font-semibold tracking-widest uppercase text-muted-foreground mb-6 text-center">
+            Оборудование применяется в системах
+          </div>
+          <div className="flex flex-wrap items-center justify-center gap-8 md:gap-16">
+            {/* J&E Hall */}
+            <div className="flex flex-col items-center gap-1">
+              <div className="flex items-center gap-2 border border-border rounded px-5 py-3">
+                <div className="w-3 h-3 rounded-full bg-[#003087]" />
+                <span className="font-black text-lg tracking-tight text-[#003087]">J&amp;E HALL</span>
+              </div>
+              <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Производитель</span>
+            </div>
+
+            <div className="w-px h-10 bg-border hidden md:block" />
+
+            {/* McQuay */}
+            <div className="flex flex-col items-center gap-1">
+              <div className="flex items-center gap-2 border border-border rounded px-5 py-3">
+                <div className="w-3 h-3 rounded-sm bg-[#E31837]" />
+                <span className="font-black text-lg tracking-tight text-[#1a1a1a]">McQUAY</span>
+              </div>
+              <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Чиллеры</span>
+            </div>
+
+            <div className="w-px h-10 bg-border hidden md:block" />
+
+            {/* Daikin */}
+            <div className="flex flex-col items-center gap-1">
+              <div className="flex items-center gap-2 border border-border rounded px-5 py-3">
+                <div className="w-3 h-3 rounded-full bg-[#0067B0]" />
+                <span className="font-black text-lg tracking-tight text-[#0067B0]">DAIKIN</span>
+              </div>
+              <span className="text-[10px] text-muted-foreground uppercase tracking-widest">Чиллеры</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* PRODUCTS */}
       <section id="products" className="py-16 border-b border-border">
         <div className="max-w-6xl mx-auto px-6">
